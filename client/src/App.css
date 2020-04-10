@@ -1,0 +1,113 @@
+* {
+    transition-duration: .2s;
+}
+
+/* Dark Mode */
+
+.dark-mode {
+    background-color: rgb(28, 30, 39);
+    color: white;
+    border: 1px solid white;
+}
+
+/* Nav Styles */
+.navBox {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(99, 104, 126);
+    margin-bottom: 20px;
+}
+
+.dark-mode .navBox {
+    background-color: rgb(47, 50, 63);
+}
+
+.title {
+    width: 76%;
+    text-align: end;
+}
+
+h1 {
+    color: black;
+}
+
+.dark-mode h1 {
+    color: white;
+}
+
+button {
+    background-color: rgb(28, 30, 39);
+    color: white;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 5px 10px;
+    font-size: 20px;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(28, 30, 39);
+    border: 1px solid rgb(28, 30, 39);
+}
+
+.dark-mode button  {
+    background-color: white;
+    color: rgb(28, 30, 39);
+    border: 1px solid rgb(28, 30, 39);
+}
+
+.dark-mode button:hover  {
+    background-color: rgb(28, 30, 39);
+    color: white;
+    border: 1px solid white;
+}
+
+.buttonBox {
+    width: 50%;
+    text-align: end;
+    margin-right: 20px;
+}
+
+/* Card Styles */
+
+.cardBox {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+
+}
+  
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    border: 1px solid rgb(28, 30, 39);
+    border-radius: 12px;
+    width: 31%;
+    margin: 10px 0;
+    color: rgb(28, 30, 39);
+    background-color: rgb(201, 202, 207);
+}
+
+.dark-mode .card {
+    color: white;
+    background-color: rgb(47, 50, 63);
+    border: 1px solid white;
+}
+
+.cardText {
+    margin: 5px 0;
+}
